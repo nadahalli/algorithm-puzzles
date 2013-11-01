@@ -1,7 +1,4 @@
-neggs = 3
-nfloors = 100
-
-memo = {}
+from collections import deque
 
 def find_floor(neggs, nfloors):
     memo_key = (neggs, nfloors)
@@ -24,6 +21,8 @@ def find_floor(neggs, nfloors):
         memo[memo_key] = ret_val
     return ret_val 
 
+neggs = 2
+nfloors = 100
 print find_floor(neggs, nfloors)
                 
         
