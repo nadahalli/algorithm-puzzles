@@ -20,7 +20,7 @@ def binsearch(a, i, j, x):
     stack.appendleft((i, j))
     while len(stack):
         i, j = stack.popleft()
-        if i > j:
+        if i >= j:
             return -1
         mid = (i + j) / 2
         if a[mid] == x:
@@ -31,5 +31,5 @@ def binsearch(a, i, j, x):
             stack.appendleft((i, mid))
 
 a = [1, 2, 3, 4, 5, 6, 7, 8]
-print binsearch(a, 0, len(a), 6)
+print binsearch(a, 0, len(a), 10)
     
