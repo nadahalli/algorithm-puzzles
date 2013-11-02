@@ -1,22 +1,25 @@
 n = 1729
 
-i = j = 1
+i = 0
 
 def sum_of_cubes(i, j):
     return (i * i * i) + (j * j * j)
 
 while True:
-    answer = sum_of_cubes(i, j)
-    if j == 1 and answer > n:
-        print 'No anwer'
+    search = sum_of_cubes(i, i)
+    if search == n:
+        print i, i
         break
-    elif answer == n:
-        print i, j
-        break
+    elif search < n:
+        i += 1
     else:
-        if j < i:
-            j += 1
-        else:
-            j = 1
-            i += 1
-        
+        found = False
+        for j in range(i - 1, 1, -1):
+            if sum_of_cubes(i, j) == n:
+                print i, j
+                found = True
+                break 
+        if not found:
+            print 'No Answer'
+        break
+                
