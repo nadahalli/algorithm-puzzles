@@ -1,0 +1,11 @@
+*~
+*.swp
+*.pyc
+*.gz
+.p*
+MANIFEST
+dist
+build
+.settings
+training_runs
+*/package/usr/*
