@@ -12,12 +12,9 @@ def choose(a, i, j, n, turn):
     r = choose(a, i, j - 1, n - 1, next_turn)
 
     if turn == 'me':
-        if l > r:
-            return l + a[i]
-        else:
-            return r + a[j-1]
-    else:
-        return max(l, r)
+        l = l + a[i]
+        r = r + a[j-1]
+    return max(l, r)
         
         
 print choose(a, 0, len(a), len(a), 'me')
