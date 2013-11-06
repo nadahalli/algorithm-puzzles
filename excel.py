@@ -18,5 +18,5 @@ def convert(i):
 
 
 for i in range(1, 20):
-    print convert(i)
+    print convert(i), i
     #print '-' * 10
