@@ -1,8 +1,6 @@
 def num_handshakes(n):
     if n == 0:
         return 1
-    if n == 2:
-        return 1
     sum = 0
     for i in range(n/2):
         left_points = i * 2
