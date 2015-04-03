@@ -1,5 +1,7 @@
 from collections import deque
 
+memo = {}
+
 def find_floor(neggs, nfloors):
     memo_key = (neggs, nfloors)
     value = memo.get(memo_key)
