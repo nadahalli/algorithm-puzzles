@@ -1,0 +1,8 @@
+1. Given a Binary Search Tree of numbers, find two nodes that sum to K. bst_2_nodes_sum_to_k.py
+2. Device an optimal strategy to win this game: There is an array of numbers from which numbers can be "taken" from only the two ends. You are playing with an adverserial opponent, and each player takes a number for himself when he gets his turn. Players take turns one after the other. The player who takes the maximum sum wins the game. coin_choose_game.py
+3. Given a number, determine if it's the sum of two cubes. 1729 == 10^10^10 + 9^9^9. cubes.py
+4. Single source, shortest path. dijkstra.py
+5. Find edit distance between two strings. edit_distance.py
+6. Egg dropping puzzle. Given N eggs, and a K storey building, find the optimal strategy to find the storey number where the egg breaks. egg_dropping.py
+7. Generate columns from Excel. ie. given alphabet (AB), print A, B, AA, AB, BA, BB, AAA, AAB.... excel.py
+8. Given a set of documents, print each doc pair followed by how similar they are to each other. Similarity is defined by the Jaccard 
