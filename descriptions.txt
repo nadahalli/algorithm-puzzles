@@ -5,4 +5,20 @@
 5. Find edit distance between two strings. edit_distance.py
 6. Egg dropping puzzle. Given N eggs, and a K storey building, find the optimal strategy to find the storey number where the egg breaks. egg_dropping.py
 7. Generate columns from Excel. ie. given alphabet (AB), print A, B, AA, AB, BA, BB, AAA, AAB.... excel.py
-8. Given a set of documents, print each doc pair followed by how similar they are to each other. Similarity is defined by the Jaccard 
+8. Given a set of documents, print each doc pair followed by how similar they are to each other. Similarity is defined by the Jaccard coefficient (sim = size(intersection)/size(union))
+9. Given an array of strings, find the maximum length prefix shared by more (strict) than half the elements in the array. find_max_prefix_greater_than_n_by_2.py
+10. Find a random node in a binary tree. find_random_node_in_binary_tree.py
+11. Given an array, print elements (in the same order as in the original array) that are not duplicated anywhere in the array.
+first_non_duplicate_stream.py
+12. Heap Sort. heapsort.py
+13. Find the longest palindromic subsequence in a string. longest_palindromic_subsequence.py
+14. Implement factorial and binary search algorithms recursively without using system stack, but simulating your own stack. manual_stack_recursions.py
+15. Find maxsum subarray (not subsequnce) with K distinct elements. maxsum_subarray_with_k_distinct_elements.py
+16. Merge Sort. mergesort.py
+17. Given an array of product prices, find the minimum number of products that can be bought with a given amount of money. min_number_of_products_for_given_money.py
+18. Given 2*N people in a room, how many unique configurations exist in which they are non-overlapping-shaking-hands? num_nonoverlapping_handshakes.py
+19. Quick Sort. quicksort.py
+20. Given an array, find the smallest subarray (not subsequence) with given specific elements. smallest_subarray_with_specific_elements.py
+21. Using algorithmic techniques and basic arithmatic, find the approximate square root of a number. square_root.py
+22. Implement topoligical sort. topological_sort.py
+23. Given an array of words, and a max column width, wrap the words into a paragraph such that the sum of the remaining spaces at the end is minimized. word_wrap.py
